@@ -1,10 +1,28 @@
 {
   "transactions": [
     {
-      "name": "Testi",
+      "name": "Salary from Facebook",
       "type": "income",
-      "amount": 435,
+      "amount": 45454,
+      "id": 1
+    },
+    {
+      "name": "Test",
+      "type": "expense",
+      "amount": 5000,
       "id": 2
+    },
+    {
+      "name": "Shakil Ahammed",
+      "type": "income",
+      "amount": 10000000,
+      "id": 3
+    },
+    {
+      "name": "The Chronicles of Narnia",
+      "type": "expense",
+      "amount": 45454540,
+      "id": 4
     }
   ]
 }
