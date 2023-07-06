@@ -1,11 +1,13 @@
+import PropTypes from 'prop-types';
 import deleteIcon from '../assets/images/delete.svg';
 import editIcon from '../assets/images/edit.svg';
-const TransactionItem = () => {
+const TransactionItem = ({ transaction }) => {
+  const { name, amount, type } = transaction;
   return (
-    <li className="transaction income">
-      <p>Earned this month</p>
+    <li className={`transaction ${type}`}>
+      <p>{name}</p>
       <div className="right">
-        <p>৳ 100</p>
+        <p>৳ {amount}</p>
         <button className="link">
           <img className="icon" src={editIcon} />
         </button>
@@ -15,6 +17,14 @@ const TransactionItem = () => {
       </div>
     </li>
   );
+};
+
+TransactionItem.propTypes = {
+  transaction: PropTypes.shape({
+    name: PropTypes.string,
+    amount: PropTypes.number,
+    type: PropTypes.string,
+  }),
 };
 
 export default TransactionItem;
