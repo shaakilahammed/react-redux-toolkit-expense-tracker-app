@@ -112,7 +112,7 @@ const transactionsReducer = createSlice({
       .addCase(removeTransaction.fulfilled, (state, action) => {
         state.isLoading = false;
         state.transactions = state.transactions.filter(
-          (item) => item.id !== action.payload.id
+          (item) => item.id !== action.meta.arg
         );
       })
       .addCase(removeTransaction.rejected, (state, action) => {

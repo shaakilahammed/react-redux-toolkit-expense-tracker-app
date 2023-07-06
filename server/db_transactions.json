@@ -1,46 +1,10 @@
 {
   "transactions": [
     {
-      "name": "Salary from Facebook",
-      "type": "income",
-      "amount": 100,
-      "id": 1
-    },
-    {
-      "id": 2,
-      "name": "Family Expenses",
-      "type": "expense",
-      "amount": 200000
-    },
-    {
-      "name": "The Chronicles of Narnia",
-      "type": "expense",
-      "amount": 500000,
-      "id": 3
-    },
-    {
-      "name": "Test",
-      "type": "income",
-      "amount": 34500,
-      "id": 4
-    },
-    {
-      "name": "Shakil Ahammed",
-      "type": "income",
-      "amount": 345,
-      "id": 5
-    },
-    {
       "name": "Testi",
       "type": "income",
-      "amount": 46,
-      "id": 6
-    },
-    {
-      "name": "Salary from Facebook",
-      "type": "expense",
-      "amount": 4545,
-      "id": 7
+      "amount": 435,
+      "id": 2
     }
   ]
 }
